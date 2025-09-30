@@ -1,3 +1,43 @@
+/* make navbar text white */
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    color: #fff !important;
+}
+:root {
+    --bs-primary: #081b44; /* blue background */
+    --bs-success: #e0f2fe; /* very light blue */
+    --bs-dark: #fff;       /* white text */
+}
+
+body {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-dark) !important;
+}
+
+/* Make primary buttons white with blue text and border */
+.btn-primary {
+    background-color: #fff !important;
+    color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #e0f2fe !important;
+    color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* Make text-dark use white */
+.text-dark {
+    color: #fff !important;
+}
+
+:root{
+    --bs-primary: #4f8cff;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    /* Add more overrides as needed */
+}
+
 /* Basic Reset and Typography */
 * {
     margin: 0;
